@@ -1,0 +1,14 @@
+price=100
+discount=0.1
+
+finalPrice=price*(1-discount)
+itemsSold=50
+message="Total items sold " + str(itemsSold)
+
+isMember=False
+
+memberDiscount=0.1
+
+print("Final price " + str(finalPrice))
+print(message)
+print("Membership discount applied" + str(isMember))
